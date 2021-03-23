@@ -1,10 +1,10 @@
 package numMinMax;
 
 public class Number {
-	private int min = 999; // ÃÖ¼Ò
-	private int max = -999; // ÃÖ´ë
-	private int sum = 0; // ¸ğµç ÇÕ
-	int i = 0; // °¹¼ö
+	private int min = 999; // ìµœì†Œ
+	private int max = -999; // ìµœëŒ€
+	private int sum = 0; // ëª¨ë“  í•©
+	int i = 0; // ê°¯ìˆ˜
 
 	public Number() {
 
