@@ -3,9 +3,9 @@ package kr.hs.dgsw.c1;
 public class charStudy {
 	public static void main(String[] args) {
 		char a = 65;
-//		char b = '°¡';
-		char ba = '°¡';
-		char bb = '³ª';
+//		char b = 'ê°€';
+		char ba = 'ê°€';
+		char bb = 'ë‚˜';
 		System.out.println(a);
 		System.out.println(bb - ba);
 
@@ -13,7 +13,7 @@ public class charStudy {
 			System.out.println(i);
 		}
 
-		int count = 'ÆR' - '°¡' + 1;
+		int count = 'íž£' - 'ê°€' + 1;
 		System.out.println(count);
 	}
 }
