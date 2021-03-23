@@ -5,7 +5,7 @@ public class Accumulator {
 
 	public Accumulator() {
 		sum = 0;
-		System.out.println("»ı¼ºÀÚ È£Ãâ!");
+		System.out.println("ìƒì„±ì í˜¸ì¶œ!");
 	}
 	
 	public Accumulator(int value) {
@@ -21,6 +21,6 @@ public class Accumulator {
 	}
 
 	public void printResult() {
-		System.out.println("°á°ú : " + sum);
+		System.out.println("ê²°ê³¼ : " + sum);
 	}
 }
