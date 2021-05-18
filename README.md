@@ -15,3 +15,4 @@
 - 4/27 - List(hashMap, LinkedList, ArrayList 등), LinkedList를 사용해 주소록 만들기
 - 5/4 - 파일입출력(File, InputStream, OutputStream)
 - 5/11 - 파일입출력을 사용하여 Commend line 만들어보기
+- 5/18 - JDBC를 사용해서 DB와 연동하여 데이터를 SELECT, INSERT하기
