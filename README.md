@@ -17,3 +17,5 @@
 - [5/11 - 파일입출력을 사용하여 Commend line 만들어보기](https://github.com/limjh0513/DGSW_JAVA/tree/main/dgsw511)
 - [5/18 - JDBC를 사용해서 DB와 연동하여 데이터를 SELECT, INSERT하기](https://github.com/limjh0513/DGSW_JAVA/tree/main/dgsw518)
 - 5/25 - 수행평가 대비 SQL문(SELECT) 공부, 네트워크(Mac 주소, Ping) 관련 공부
+- 6/8 - Interface 수업, 4차 수행평가(DBPhoneBook) 진행
+- 6/15 - 5차 수행평가(DBPhoneBook - 기능 추가, UI 추가) 진행
