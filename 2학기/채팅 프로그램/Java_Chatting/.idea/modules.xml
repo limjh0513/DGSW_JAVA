@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaChatting/JavaChatting.iml" filepath="$PROJECT_DIR$/JavaChatting/JavaChatting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_Chatting.iml" filepath="$PROJECT_DIR$/.idea/Java_Chatting.iml" />
+    </modules>
+  </component>
+</project>

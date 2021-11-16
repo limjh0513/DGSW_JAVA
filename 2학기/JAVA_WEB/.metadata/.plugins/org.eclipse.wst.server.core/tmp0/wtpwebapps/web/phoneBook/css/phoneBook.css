@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.main {
+	width: 30rem;
+	border: 1px solid #CCC;
+	margin: 0 auto 0 auto;	
+	padding: 0.5rem;
+	position: relative;
+}
+
+.btn {
+	text-align: right;
+	padding-right: 3rem;
+	margin-bottom: 0.5rem;
+}
+
+.list {
+	width: 95%;
+	margin: 0 auto 0 auto;
+	border-collapse: collapse;
+}
+
+.list th,td {
+	border: 1px solid #AAA;
+	padding: 0.3rem;
+	text-align: center;
+}
+
+.registerLayer {
+	width: 20rem;
+	margin: 0 auto 0 auto;
+	border: 2px solid #AAA;
+	position: absolute;
+	top: 10rem;
+	left: 5rem; 
+	background-color: #EEE;
+	padding: 0.5rem;
+	display: none;
+}
+
+.registerLayer label {
+	display: inline-block;
+	width: 6rem;
+}

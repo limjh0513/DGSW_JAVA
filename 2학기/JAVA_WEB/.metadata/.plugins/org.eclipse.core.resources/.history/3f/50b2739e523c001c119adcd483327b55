@@ -1,0 +1,27 @@
+$(document).ready(function() {
+	initEventHandler();
+})
+
+function initEventHandler() {
+	$("btn_register").on("click", function() {
+		openRegisterPopup();
+	});
+
+	$(".registerLayer #btn_close").on("click", function() {
+		$(".registerLayer").hide();
+	})
+	
+	$(".registerLayer #btn_sabe").on("click", function(){
+		doRegister();
+	})
+}
+
+function openRegisterPopup() {
+	$(".registerLayer").show();
+	$(".registerLayer [name='name']").val("");
+	$(".registerLayer [name='phoneNumber']").val("");
+}
+
+function doRegister(){
+	$.post();
+}

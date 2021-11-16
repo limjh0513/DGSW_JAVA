@@ -1,0 +1,7 @@
+$(document).ready(function() {
+	initEventHandler();
+})
+
+function initEventHandler() {
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>전화번호부</title>
+<link rel="stylesheet" href="css/phoneBook.css" />
+</head>
+<body>
+	<div class="main">
+		<h1>전화번호부</h1>
+		<div class="btn">
+			<button>추가</button>
+			<button>삭제</button>
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th>이름</th>
+					<th>전화번호</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr></table>
+	</div>
+</b
+		ody>
+</html>

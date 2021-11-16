@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>전화번호부</title>
+</head>
+<body>
+	<div class="main">
+		<h1>전화번호부</h1>
+		<div>
+			<button>추가</button>
+			<button>삭제</button>
+		</div>
+
+		<table>
+			<thead>
+				<tr>
+					<th></th>
+					<th>이름</th>
+					<th>전화번호</th>
+				</tr>
+			</thead>
+			<tbody>
+			<tr>
+					<th><input type="checkbox"/></th>
+					<th>이름</th>
+					<th>전화번호</th>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

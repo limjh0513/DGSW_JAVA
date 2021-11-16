@@ -1,0 +1,15 @@
+$(document).ready(function() {
+	initEventHandler();
+})
+
+function initEventHandler() {
+	$("btn_register").on("click", function(){
+		openRegisterPopup();
+	});
+}
+
+function openRegisterPopup(){
+	$(".registerLayer").show();
+	$(".registerLayer [name='name']").val("");
+	$(".registerLayer [name='phoneNumber']").val("");
+}

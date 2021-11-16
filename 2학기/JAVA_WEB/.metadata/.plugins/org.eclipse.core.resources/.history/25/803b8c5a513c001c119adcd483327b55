@@ -1,0 +1,9 @@
+$(document).ready(function() {
+	initEventHandler();
+})
+
+function initEventHandler() {
+	$("btn_register").on("click", function(){
+		$(".registerLayer").show();
+	});
+}

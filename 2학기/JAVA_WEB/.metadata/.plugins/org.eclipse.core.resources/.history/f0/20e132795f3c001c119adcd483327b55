@@ -1,0 +1,58 @@
+package kr.hs.dgsw.web.servlet.phoneBook;
+
+import java.sql.Connection;
+import java.util.List;
+
+import kr.hs.dgsw.web.service.ConnectionManager;
+
+public class PhoneBookServiceImpl implements PhoneBookService{
+	public PhoneBookServiceImpl(){
+		
+	}
+
+	@Override
+	public void create(PhoneNumber phoneNumber) {
+		try {
+			Connection con = ConnectionManager.getConnection();
+			
+			StringBuilder sql = new StringBuilder();
+			
+			sql.append("INSERT INTO phoneBook (");
+			sql.append("	");
+			sql.append("");
+			sql.append(") VALUES (");
+			sql.append("");
+			sql.append("");
+			sql.append(") ");
+			
+			con.close();
+		}catch(Exception e) {
+			throw new RuntimeException(e);
+		}
+		
+	}
+
+	@Override
+	public PhoneNumber read(int idx) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void update(PhoneNumber phoneNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(int idx) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<PhoneNumber> list() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

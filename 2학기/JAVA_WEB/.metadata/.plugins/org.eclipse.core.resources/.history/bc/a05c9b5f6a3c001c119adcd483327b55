@@ -1,0 +1,37 @@
+package kr.hs.dgsw.web.servlet.phoneBook;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.google.gson.Gson;
+
+@WebServlet("/list")
+public class PhoneBookList extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setCharacterEncoding("UTF-8");
+
+		RestResult result = new RestResult();
+
+		try {
+			PhoneBookService service = new PhoneBookServiceImpl();
+			List<PhoneNumber> numbers = service.list();
+
+			result.setResultCode("Success");
+			result.setData(numbers);
+		} catch (Exception e) {
+			result.setResultCode("Fail");
+			result.setResultMessage(e.getMessage());
+		}
+
+		response.getWriter().append(new Gson().toJson(result));
+	}
+}

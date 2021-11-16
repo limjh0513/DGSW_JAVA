@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>웹 공부</title>
+
+<style>
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	margin-right: 2rem;
+}
+
+.button {
+	padding-left: 10rem;
+}
+
+div {
+	margin: 5px;
+}
+input[type=number]{
+	width: 3rem;
+}
+
+input[type=text] {
+	width: 5rem;
+}
+</style>
+</head>
+<body>
+	<form action="print" method="get">
+		<div>
+			<label>이름</label> <input type="text" name="name" />
+		</div>
+		<div>
+			<label>성별</label> <input type="radio" name="gender" value="M" />남 <input
+				type="radio" name="gender" value="F" />여
+		</div>
+		<div>
+			<label>나이</label> <input type="number" name="age" />세
+		</div>
+		<div class="button">
+			<input type="submit" value="입력">
+		</div>
+	</form>
+</body>
+</html>

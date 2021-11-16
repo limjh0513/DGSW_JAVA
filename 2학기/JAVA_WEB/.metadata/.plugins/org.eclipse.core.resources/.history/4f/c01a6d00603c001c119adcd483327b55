@@ -1,0 +1,6 @@
+package kr.hs.dgsw.web.servlet.phoneBook;
+
+public class PhoneNumber {
+	String name
+	
+}

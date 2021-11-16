@@ -1,0 +1,13 @@
+package kr.hs.dgsw.web.servlet.phoneBook;
+
+public interface PhoneBookService {
+	public void create(PhoneNumber phoneNumber);
+	
+	public PhoneNumber read(int idx);
+	
+	public void update(PhoneNumber phoneNumber);
+	
+	public void delete(int idx);
+	
+	public List<PhoneNumber> list();
+}

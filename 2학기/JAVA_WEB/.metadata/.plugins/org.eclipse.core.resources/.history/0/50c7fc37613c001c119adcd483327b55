@@ -1,0 +1,27 @@
+package kr.hs.dgsw.web.servlet.phoneBook;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/phoneBook/register.do")
+public class PhoneBookRegisterPhoneBook extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		response.setCharacterEncoding("UTF-8");
+		
+		PhoneBookService service = new PhoneBookServiceImpl();
+		PhoneNumber phoneNumber = new PhoneNumber();
+		phoneNumber.setName(request.getParameter("name"));
+		phoneNumber.setPhoneNumber(request.getParameter("phoneNumber"));
+
+		response.getWriter().append("{'resultCode': 'OK'}");
+	}
+
+}

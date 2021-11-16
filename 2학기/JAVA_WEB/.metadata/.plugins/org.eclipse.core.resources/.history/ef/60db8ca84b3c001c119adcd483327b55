@@ -1,0 +1,13 @@
+@charset "EUC-KR";
+
+.main {
+	width: 30rem;
+	border: 1px solid #EEE;
+	margin: 0 auto 0 auto;
+	padding: 0.5rem;
+}
+
+.btn{
+	text-align: rigth;
+	padding-right: 3rem;
+}

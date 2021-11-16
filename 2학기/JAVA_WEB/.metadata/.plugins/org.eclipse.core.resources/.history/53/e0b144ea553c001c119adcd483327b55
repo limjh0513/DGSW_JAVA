@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>전화번호부</title>
+<link rel="stylesheet" href="css/phoneBook.css" />
+</head>
+<body>
+	<div class="main">
+		<h1>전화번호부</h1>
+		<div class="btn">
+			<button id="btn_register">추가</button>
+			<button id="btn_delete">삭제</button>
+		</div>
+
+		<table class="list">
+			<thead>
+				<tr>
+					<th></th>
+					<th>이름</th>
+					<th>전화번호</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+			<tbody>
+				<tr>
+					<td><input type="checkbox" /></td>
+					<td>정재봉</td>
+					<td>010-4364-2452</td>
+				</tr>
+		</table>
+	</div>
+
+
+	<div class="registerLayer">
+		<h3>번호 추가</h3>
+		<div>
+			<label>이름</label> <input type="text" name="name" />
+		</div>
+		<div>
+			<label>전화번호</label> <input type="text" name="phoenNumber" />
+		</div>
+		<div style="text-align: center; margin-top: 0.5rem">
+			<input id="btn_save" type="button" value="등록" /> <input id="btn_close" type="button" value="닫기" />
+		</div>
+	</div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+<script src="js/phoneBook.js"></script>
+</html>
