@@ -1,0 +1,7 @@
+C:\Users\USER\source\repos\2115_Server\2115_Server\bin\Debug\2115_Server.exe.config
+C:\Users\USER\source\repos\2115_Server\2115_Server\bin\Debug\2115_Server.exe
+C:\Users\USER\source\repos\2115_Server\2115_Server\bin\Debug\2115_Server.pdb
+C:\Users\USER\source\repos\2115_Server\2115_Server\obj\Debug\2115_Server.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\2115_Server\2115_Server\obj\Debug\2115_Server.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\2115_Server\2115_Server\obj\Debug\2115_Server.exe
+C:\Users\USER\source\repos\2115_Server\2115_Server\obj\Debug\2115_Server.pdb

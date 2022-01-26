@@ -1,0 +1,13 @@
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.exe
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.deps.json
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.runtimeconfig.json
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.runtimeconfig.dev.json
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.dll
+C:\Users\USER\source\repos\2115_Client\2115_Client\bin\Debug\netcoreapp3.1\2115_Client.pdb
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.AssemblyInfo.cs
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.dll
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.pdb
+C:\Users\USER\source\repos\2115_Client\2115_Client\obj\Debug\netcoreapp3.1\2115_Client.genruntimeconfig.cache

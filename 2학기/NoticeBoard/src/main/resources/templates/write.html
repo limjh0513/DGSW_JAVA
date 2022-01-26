@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작성 페이지</title>
+
+    <style>
+        .mainView {
+            width: 600px;
+            height: 850px;
+            margin: 0 auto;
+            border: 2px solid gray;
+            margin-top: 30px;
+            border-radius: 20px;
+        }
+
+        label {
+            font-size: 24px;
+            margin-right: 16px;
+            margin-left: 30px;
+        }
+
+        .inputs {
+            margin-bottom: 40px;
+        }
+
+        .inputContent {
+            display: flex;
+        }
+
+        .inputName {
+            padding-top: 30px
+        }
+
+        .inputName_input {
+            width: 400px;
+            height: 50px;
+        }
+
+        .inputTitle_input {
+            width: 400px;
+            height: 50px;
+        }
+
+        .inputContent_input {
+            width: 400px;
+            height: 500px;
+            overflow: scroll;
+        }
+
+        .inputContent_label {
+            margin: auto 0;
+            font-size: 24px;
+            margin-right: 16px;
+            margin-left: 30px;
+        }
+
+        .input_continue {
+            width: 150px;
+            height: 70px;
+            font-size: 24px;
+            justify-content: center;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .back {
+            color: coral;
+            margin: 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<a class="back" th:href="@{/}">메인 페이지로!</a>
+<div class="mainView">
+    <form action="/post/write" method="post">
+        <div class="inputs inputName">
+            <label class="inputName_label">작성자</label> <input
+                class="inputName_input" type="text" name="name"
+                minlength="1" maxlength="50"/>
+        </div>
+        <div class="inputs inputTitle">
+            <label class="inputTitle_label">제목</label> <input
+                class="inputTitle_input" type="text" name="title" minlength="1" maxlength="100"/>
+        </div>
+        <div class="inputs inputContent">
+            <label class="inputContent_label">내용</label>
+            <textarea class="inputContent_input" name="content" minlength="1" maxlength="500"></textarea>
+        </div>
+        <input class="input_continue" type="submit" value="작성">
+    </form>
+</div>
+</body>
+</html>
